@@ -24,7 +24,7 @@ def check_pass(password):
 
 def main():
     pass_words=[]
-    file_name = "/home/aarush/Desktop/codes/pass.txt"           #text file path, where you give the password to check
+    file_name = ""           #text file path, where you give the password to check
     file = open(file_name,'r')
     for line in file:
         l = len(line)
