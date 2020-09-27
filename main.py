@@ -29,7 +29,7 @@ def main():
     for line in file:
         l = len(line)
         pass_words.append(line[:l-1])
-    print(pass_words)
+ 
     for password in pass_words:
         count = check_pass(password)
         if count:
