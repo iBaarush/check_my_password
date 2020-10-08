@@ -35,7 +35,7 @@ def main():
         if count:
             print(f"{password} was pwned {count} times, and you should probably change your password")
         else:
-            print(f"Great! {password} not pwned yet")
+            print(f"Great password! {password} not pwned yet")
     return 'done!'
 if __name__ == '__main__':                          #runs only if name of the file is "main"
     sys.exit(main())
